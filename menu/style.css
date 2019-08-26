@@ -1,0 +1,19 @@
+*{ outline: 0; padding: 0; margin: 0; border: 0;}
+@font-face {
+  font-family: "DINPro";
+  src: url("fonts/DINPro.woff") format("woff")
+}
+.dropdown {
+  width:320px;
+  height: 456px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+span {
+font-family: DINPro;
+font-size: 18px;
+line-height: 1.33;
+text-align: left;
+color: #151f31;
+}
