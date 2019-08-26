@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "DINPro";
+  src: url("fonts/DINPro.woff") format("woff")
+}
+.dropdown {
+  width:320px;
+  height: 456px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.items span {
+font-family: DINPro;
+font-size: 18px;
+line-height: 1.33;
+text-align: left;
+color: #151f31;
+}

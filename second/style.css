@@ -1,0 +1,374 @@
+
+@font-face {
+  font-family: "ApercuProBold";
+  src: url("ApercuPro-Bold.woff") format("woff")
+}
+@font-face {
+  font-family: "ApercuPro";
+  src: url("ApercuPro.woff") format("woff")
+}
+
+.header {
+  width: 1200px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 1px;
+}
+.text span,
+.filter__text {
+  font-family: ApercuProBold;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 88px;
+  padding-top: 2px;
+}
+.filter__text {
+  margin-right: 19px;
+}
+.text span {
+  white-space: pre;
+  padding-left: 40px;
+}
+
+.text span a,
+.filter__text {
+  color: #cdcdcd;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  margin-right: 26px;
+
+}
+ .text {
+  font-weight: 800;
+  margin-right: 126px;
+  display: flex;
+}
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+.percent {
+  width: 83px;
+  height: 32px;
+  border-radius: 17px;
+  border: solid 1px #008bd6;
+  margin-right: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: #008bd6;
+  font-family: ApercuProBold;
+  font-weight: bold;
+}
+
+.button-stop {
+  width: 122px;
+  height: 34px;
+  border-radius: 17px;
+  background-color: #d0021b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-stop span {
+  font-family: ApercuProBold;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.wrapper {
+  background-color: #f5f5f5;
+  width: 1200px;
+  height: 717px;
+  }
+
+.table-header {
+  height: 85px;
+  box-sizing: border-box;
+  padding-top: 39px;
+  padding-left: 90px;
+  font-family: ApercuPro;
+  display: flex;
+}
+
+.cell {
+  font-size: 9px;
+  font-weight: bold;
+  color: #a5a5a5;
+}
+
+.table-header__cell-1 {
+  width: 57px;
+  height: 23px;
+  line-height: 10px;
+  margin-right: 19px;
+}
+
+.table-header__cell-1 span {
+  line-height: 12px;
+}
+
+.table-header__cell-2 {
+  margin-right: 238px;
+}
+
+.table-header__cell-3 {
+  margin-right: 120px;
+}
+
+.left-column {
+  width: 87px;
+  height: 627px;
+  font-family: ApercuPro;
+  font-size: 16px;
+  color: #a5a5a5;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+}
+
+.number {
+  line-height: 1.63;
+  padding-left: 35px;
+  position: relative;
+}
+
+.left-column__value-1 {
+  padding-top: 49px;
+  margin-bottom: 231px;
+}
+
+.number::before {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-bottom: solid 2px #cdcdcd;
+  border-left: solid 2px #cdcdcd;
+  right: 22px;
+  transform: rotate(225deg);
+  top: 10px;
+}
+
+.left-column__value-1::before {
+  top: 57px;
+  transform: rotate(-45deg);
+}
+
+.left-column__value-2 {
+  margin-bottom: 70px;
+}
+
+.left-column__value-3 {
+  margin-bottom: 69px;
+}
+
+.left-column__value-4 {
+  margin-bottom: 71px;
+}
+
+.table-elem {
+  width: 1067px;
+  height: 242px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 6px 0 rgba(178, 192, 212, 0.5);
+  background-color: #ffffff;
+  margin-left: 87px;
+  font-family: ApercuPro;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.table-elem__row {
+  width: 1067px;
+  height: 40px;
+  border-bottom: 1px solid #ebedf0;
+  display: flex;
+  line-height: 40px;
+}
+
+.table-elem__row-1.cell-1 {
+  font-size: 10px;
+  padding-left: 14px;
+  font-weight: bold;
+  border: none;
+}
+.table-elem__row-1.cell-4 {
+  color: #000000;
+}
+
+.cell-1 {
+  width: 61px;
+  height: 40px;
+  box-sizing: border-box;
+  border-right: 1px solid #ebedf0;
+  width: 61px;
+  font-weight: bold;
+}
+
+.cell-2 {
+  width: 264px;
+  box-sizing: border-box;
+  border-right: 1px solid #ebedf0;
+  padding-left: 15px;
+}
+
+.cell-3 {
+  width: 163px;
+  border-right: 1px solid #ebedf0;
+  box-sizing: border-box;
+  padding-left: 13px;
+}
+
+.cell-4 {
+  width: 163px;
+  border-right: 1px solid #ebedf0;
+  box-sizing: border-box;
+  padding-left: 11px;
+  color: #417505;
+}
+
+.cell-5, .cell-6 {
+  width: 163px;
+  border-right: 1px solid #ebedf0;
+  box-sizing: border-box;
+}
+
+.cell-7 {
+  width: 81px;
+}
+
+.table-elem__row-2.cell-1 {
+  padding-left: 15px;
+}
+
+.table-elem__row-2.cell-2 {
+  color: #417505;
+  position: relative;
+}
+
+.table-elem__row-3.cell-1 {
+  font-size: 10px;
+  padding-left: 14px;
+}
+
+.table-elem__row-3.cell-1:hover {
+  background-color: #008bd6;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.table-elem__row-3.cell-2 {
+  color: #417505;
+  position: relative;
+}
+
+.table-elem__row-4.cell-1 {
+  padding-left: 15px;
+}
+
+.table-elem__row-4.cell-2 {
+  color: #d0021b;
+}
+
+.row-5 {
+  height: 78px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: none;
+}
+
+.table-elem__other {
+  font-size: 9px;
+  font-weight: bold;
+  color: #a5a5a5;
+  position: absolute;
+  top: -10px;
+  right: 2px;
+}
+
+.table-elem-4 .table-elem__other {
+  color: #cdcdcd;
+}
+
+.table-elem__row-4-rectangle {
+  width: 216px;
+  height: 34px;
+  background-color: #f5f5f5;
+  margin-left: 25px;
+  margin-right: 22px;
+}
+
+.table-elem__row-4-add-button {
+  width: 122px;
+  height: 34px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 17px;
+  border: solid 1px #008bd6;
+  color: #008bd6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table-elem-2,
+.table-elem-3,
+.table-elem-4,
+.table-elem-5 {
+  width: 1067px;
+  height: 82px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-left: 87px;
+  font-family: ApercuPro;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.table-elem-2 .table-elem__row.row-3,
+.table-elem-3 .table-elem__row.row-2 {
+  border-bottom: none;
+}
+
+.table-elem-2 .table-elem__row-3.cell-1 {
+  padding-left: 7px;
+}
+
+.table-elem-2 .table-elem__row-3.cell-1:hover {
+  background-color: #d0021b;
+}
+
+.table-elem-2 .table-elem__row-3.cell-4 {
+  color: #d0021b;
+}
+
+.table-elem-3 .table-elem__row-2.cell-2,
+.table-elem-3 .table-elem__row-2.cell-4 {
+  color: #000000;
+}
+.table-elem-4 {
+  border: solid 1px #cdcdcd;
+  color: #cdcdcd;
+}
+
+.table-elem-4 .table-elem__row-1.cell-4,
+.table-elem-4 .table-elem__row-2.cell-2,
+.table-elem-4 .table-elem__row-2.cell-4 {
+  color: #cdcdcd;
+}
+.table-elem-5 .table-elem__row-2.cell-4 {
+  color: #d0021b;
+}
